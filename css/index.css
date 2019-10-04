@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+e/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,6 +64,37 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    /*width: 80%*/
+}
+
+.logo {
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+.top-nav {
+    padding-top: 5%;
+    display: flex
+    
+    
+}
+.top-nav a {
+    align-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 22px;
+    
+
+    
+    
+    
+}
+.top-pic {
+
 }
 
 .container {
